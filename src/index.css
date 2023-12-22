@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap');
 
 :root {
-	font-family: 'Izhitsa', arial;
+	font-family: 'Kelly Slab', sans-serif;
 	line-height: 1.5;
 	font-weight: 400;
 
@@ -29,4 +30,9 @@ body {
 	place-items: center;
 	min-width: 320px;
 	min-height: 100vh;
+	background-image: url('/bg.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	cursor: url('/russ-vs-lizard-front/public/cur.png');
 }

@@ -1,0 +1,58 @@
+* {
+	font-family: 'Kelly Slab', sans-serif;
+	cursor: url('./../../public/');
+}
+.wrapper {
+	width: 100vw;
+	min-height: 100vh;
+	position: relative;
+}
+.wrapper > form {
+	position: absolute;
+	width: 400px;
+	padding: 40px;
+	left: 600px;
+	top: 50px;
+}
+.wrapper > form > h1 {
+	font-size: 45px;
+	margin-bottom: 20px;
+	color: rgb(254, 235, 124);
+	text-shadow: rgb(109, 89, 81) 2px 5px 2px;
+	border: re;
+}
+.wrapper > form > input {
+	display: block;
+	padding: 5px 10px;
+	border-radius: 7px;
+	margin-bottom: 10px;
+	width: 90%;
+	height: 30px;
+	font-size: 25px;
+	border: 0.5px solid rgba(0, 0, 0, 0.744);
+	transition: all 0.4s linear;
+	background-color: rgba(36, 14, 14, 0.8);
+	outline: none;
+	color: #c6b241;
+}
+.wrapper > form > input::placeholder {
+	color: rgb(131, 146, 113);
+}
+.wrapper > form > input:hover {
+	height: 50px;
+}
+.wrapper > form > button {
+	color: #c6b241;
+	width: 95%;
+	font-size: 30px;
+	padding: 5px 5px;
+	text-transform: uppercase;
+
+	border-radius: 7px;
+	background-color: rgba(36, 14, 14, 0.8);
+	transition: box-shadow 0.4s linear, background-color 0.4s linear;
+}
+.wrapper > form > button:hover {
+	box-shadow: 0 3px 10px #c6b241;
+	background-color: rgba(36, 14, 14, 0.6);
+}
